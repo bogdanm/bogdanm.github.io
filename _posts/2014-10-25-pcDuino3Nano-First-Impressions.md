@@ -1,6 +1,7 @@
 ---
 title: pcDuino3Nano - first impressions
 layout: post
+permalink: pcduino3nano-first-impressions
 ---
 I recently purchased a [pcDuino3Nano] board, because I find it to be a better overall board than a Raspberry Pi or other similar boards, and very reasonably priced. Plus, it has SATA (which is a big plus for me) and accepts Arduino shields. It's still quite new and documentation is not great, but most of the documentation for its bigger brother ([pcDuino3]) also applies to the "nano" version.
 
