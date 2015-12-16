@@ -2,6 +2,7 @@
 title: pcDuino3Nano - installing Arch Linux
 layout: post
 permalink: pcduino3nano-installing-arch-linux
+comments: true
 ---
 In my [previous post][nav-firstimpressions], we had a first look at the [pcDuino3Nano] board and booted it up using the pre-programmed firmware, which turned out to be a simple and intuitive process. In today's post, I'll explain how to install [Arch Linux] on this board.
 
