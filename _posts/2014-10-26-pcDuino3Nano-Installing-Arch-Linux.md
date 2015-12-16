@@ -311,7 +311,3 @@ The first step above (updating the kernel) can be done from Linux with a bit mor
 [board-howtoflash]: http://learn.linksprite.com/pcduino/quick-start/pcduino3/video-run-built-in-arduino-ide-on-pcduino3/
 [rootfs]: http://archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz
 
-alsa-lib alsa-utils libmad faad
-https://wiki.archlinux.org/index.php/Systemd/User
-systemctl --user daemon-reload
-
