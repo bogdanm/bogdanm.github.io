@@ -4,12 +4,16 @@ layout: post
 ---
 In my [previous post][nav-firstimpressions], we had a first look at the [pcDuino3Nano] board and booted it up using the pre-programmed firmware, which turned out to be a simple and intuitive process. In today's post, I'll explain how to install [Arch Linux] on this board.
 
+<!--more-->
+
+* TOC
+{:toc}
+
+
 <div class="info">
     <h4>Update 14.12.2015</h4>
     <p>This post was updated on 14.12.2015. Look for "Update" paragraph and text boxes (like this one).</p>
 </div>
-
-<!--more-->
 
 # Update 14.12.2015
 
@@ -288,7 +292,7 @@ Updating [Arch Linux] is easy, but if you removed the kernel package in step 6 a
 IgnorePkg   = linux-armv7
 {% endhighlight %}
 
-Once that's done, updatin the image is really reasy:
+Once that's done, updating the image is really reasy:
 
 {% highlight sh %}
 # pacman -Syu

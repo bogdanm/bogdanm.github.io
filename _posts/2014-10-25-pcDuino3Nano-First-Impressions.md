@@ -6,6 +6,9 @@ I recently purchased a [pcDuino3Nano] board, because I find it to be a better ov
 
 <!--more-->
 
+* TOC
+{:toc}
+
 # What you get
 
 Pretty much this:

@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               llbits
 tagline:             'low level bits&bytes'
 url:                 http://bogdanm.github.io
-paginate:            1
+paginate:            5
 baseurl:             ''
 
 # Assets
