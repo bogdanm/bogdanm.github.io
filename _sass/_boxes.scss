@@ -1,0 +1,48 @@
+.info, .error, .warning, .tip {
+    margin: 20px 0px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.info h4, .error h4, .warning h4, .tip h4 {
+    margin: 5px 5px 5px 40px;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.info p, .error p, .warning p, .tip p {
+    font-size: 0.8rem;
+    color: #000;
+    margin: 10px 5px 5px 5px;
+}
+
+.info {
+    border: 1px solid #0e7fad;
+    color: #0e7fad;
+    background: #c0e9fa url('images/info.png') no-repeat;
+    background-position:10px 10px;
+}
+
+.error {
+    border: 1px solid #641f1a;
+    color: #641f1a;
+    background: #ffd2d4 url('images/error.png') no-repeat;
+    background-position: 10px 10px;
+}
+
+.warning {
+    border: 1px solid #9d9c49;
+    color: #9d9c49;
+    background: #fdfdcb url('images/warning.png') no-repeat;
+    background-position: 10px 10px;
+}
+
+.tip {
+    border: 1px solid #c77d10;
+    color: #c77d10;
+    background:#f9d69e url('images/tip.png') no-repeat;
+    background-position:10px 10px;
+}
+

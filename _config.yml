@@ -1,15 +1,19 @@
-# Permalinks
+# Dependencies
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks) Permalinks
+
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               llbits
+tagline:             'low level bits&bytes'
+url:                 http://bogdanm.github.io
 paginate:            1
-baseurl:             ""
+baseurl:             ''
 
 # Assets
 #
@@ -20,11 +24,15 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Bogdan Marinescu
+  email:             bogdan.marinescu@gmail.com
 
 # Custom vars
-version:             2.0.0
+version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/bogdanm/bogdanm.github.io
+
+# Structure
+pages_list:
+  Archive: '/archive'
+  Feed: '/atom.xml'
