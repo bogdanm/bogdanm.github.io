@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               llbits
 tagline:             'low level bits&bytes'
-url:                 http://bogdanm.github.io
+url:                 http://bogdanm.me
 paginate:            5
 baseurl:             ''
 
