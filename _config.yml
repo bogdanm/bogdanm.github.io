@@ -36,3 +36,14 @@ github:
 pages_list:
   Archive: '/archive'
   Feed: '/atom.xml'
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+      excerpt_separator: <!--more-->
+

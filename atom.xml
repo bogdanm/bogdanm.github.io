@@ -21,11 +21,7 @@ layout: null
    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   {% if post.content contains "<!--more-->" %}
-     <content type="html">{{ post.content | split:"<!--more-->" | first | xml_escape }}</content>
-   {% else %}
-     <content type="html">{{ post.content | xml_escape }}</content>
-   {% endif %}
+   <content type="html">{{ post.excerpt | xml_escape }}</content>
  </entry>
  {% endfor %}
 
