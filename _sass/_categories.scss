@@ -1,0 +1,19 @@
+.cats {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    overflow: hidden;
+}
+
+.cats li a {
+    display: block;
+    float: left;
+    background: #4060A5;
+    padding: 0px 5px 0px 5px;
+    margin-right: 10px;
+    position: relative;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #fff;
+}
+

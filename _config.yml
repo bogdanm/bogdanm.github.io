@@ -35,6 +35,7 @@ github:
 # Structure
 pages_list:
   Archive: '/archive'
+  Categories: '/categories'
   Feed: '/atom.xml'
 
 # Default settings

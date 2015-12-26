@@ -3,6 +3,7 @@ title: pcDuino3Nano - configuring wireless networking
 layout: post
 permalink: pcduino3nano-configuring-wireless-networking
 comments: true
+categories: [pcduino, linux]
 ---
 In my [previous post][nav-installarch] I've covered the installation procedure for [Arch Linux] on the [pcDuino3Nano] board. The procedure covers wired connectivity, but not wireless. This post will show how to enable wireless networking in [Arch Linux] quickly and painlessly.
 

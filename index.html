@@ -7,6 +7,15 @@ title: Home
   {% for post in paginator.posts %}
   <article class="post">
     <div class="post-content-truncate">
+
+    {% if post.categories %}
+    <ul class="cats">
+        {% for cat in post.categories %}
+        <li><a href="{{ site.baseurl }}categories/#{{ cat }}">{{ cat }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
