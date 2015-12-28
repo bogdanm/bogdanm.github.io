@@ -11,7 +11,7 @@ title: Home
     {% if post.categories %}
     <ul class="cats">
         {% for cat in post.categories %}
-        <li><a href="{{ site.baseurl }}categories/#{{ cat }}">{{ cat }}</li>
+        <li><a href="{{ site.baseurl }}categories/#{{ cat }}">{{ cat }}</a></li>
         {% endfor %}
     </ul>
     {% endif %}
