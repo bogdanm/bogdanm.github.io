@@ -36,6 +36,7 @@ github:
 pages_list:
   Archive: '/archive'
   Categories: '/categories'
+  Code: 'https://github.com/bogdanm'
   Feed: '/atom.xml'
 
 # Default settings
